@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'home/bootstrap-5.0.2-dist/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'home/style/style.css' %}">
+    
+    <title>Izzatillo's Blog</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row navbar">
+            <div class="col-12 col-md-6 col-sm-6 navbar-icon"><a href="/">Izzatillo's Blog</a></div>
+            <div class="col-12 col-md-6 col-sm-6 navbar-link">
+                <div><a href="about">About</a></div>
+                <div><a href="blog">Blog</a></div>
+                <div><a href="@Izzatillo_Olimjonov">Channel</a></div>
+            </div>
+        </div>
+        <div class="row header">
+            <i stlye="color: #fff" class ="fas fa bars"></i>
+            <div class="col-12 col-md-3 col-sm-12 header-img">
+                <img src="static/manoli.jpg" alt="manoli">
+            </div>
+            <div class="col-12 col-md-9 col-sm-12 header-text">
+                <h1>Izzatillo Olimjonov</h1>
+                <p>Software Engineer</p>
+                <a href="#"><img src="static/youtube.png" alt=""></a>
+                <a href="#"><img src="./photo/twitter.png" alt=""></a>
+                <a href="#"><img src="static/github.png" alt=""></a>
+                <a href="#"><img src="static/in.png" alt=""></a>
+            </div>
+            <div class="col-12 col-md-12 col-sm-12 header-btn">
+                <p>I write about non-technical stuff in the technical world</p>
+                <a class="btn-1" href="{% url 'blog' %}">Blog</a>
+                <a class="btn-2" href="{% url 'about' %}">About</a>
+            </div>
+            <div class="row footer">
+                <div class="col-12">
+                    <p>© 2021 codial.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

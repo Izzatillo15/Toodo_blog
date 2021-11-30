@@ -1,0 +1,12 @@
+      {% extends 'base.html' %}
+
+      {% block content %}
+          {% for Maqola in objects_list %}
+              <div class="Maqola-enrty">
+                   <h2><a href="">{{ Maqola.title }}</a></h2>
+                   <p>{{ Maqoloa.matn }}</p>
+
+
+              </div>
+          {% endfor %}
+      {% endblock content %}

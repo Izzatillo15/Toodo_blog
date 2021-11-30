@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    .navbar{
+        padding-left: 40px;
+        padding-right: 40px;
+        border-bottom: 1px solid #DEDEDE;
+        .navbar-icon{
+            a{
+                font-size: 30px;
+                font-weight: bold;
+                text-decoration: none;
+                color: #000;
+            }
+        }
+        .navbar-link{
+            justify-content: end;
+            display: flex;
+            a{
+                text-decoration: none;
+                margin-left: 50px;
+                color: grey;
+            }
+        }
+    }
+    .aboutme{
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: #FAFAFC;
+        border-bottom: 1px solid #DEDEDE;
+        padding: 10px 0px;
+        .col-12{
+            h1{
+                font-weight: 400;
+                font-size: 50px;
+                text-align: center;
+            }
+        }
+    }
+    .main{
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 50px;
+        img{
+            margin-top: 50px;
+            width: 100%;
+        }
+        font-size: 19px;
+        h5{
+            text-align: center;
+            padding-top: 10px;
+            font-weight: normal;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+    .footer{
+        margin-top: 20vh;
+        text-align: center;
+    }
+}
